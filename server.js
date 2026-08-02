@@ -27,7 +27,7 @@ app.get('/api/checkVersion', async (req, res) => {
     const pluginPath = path.join(__dirname, 'static/update/patch', verCfg.pluginFileName);
     const pluginMd5 = getFileMD5(pluginPath);
 
-    const DOMAIN = "替换为你后续Render域名";
+    const DOMAIN = "https://fuwuqi‑io8t.onrender.com";
     const data = {
       pluginVersionCode: verCfg.pluginVersionCode,
       pluginVersionName: verCfg.pluginVersionName,
